@@ -22,7 +22,7 @@ struct RepoMediumView: View {
                 HStack {
                     
                     
-                    Image(uiImage: UIImage(named: "avatar")!)
+                    Image(uiImage: UIImage(data: repo.avatarData) ?? UIImage(named: "avatar")!)
                         .resizable()
                         .frame(width: 50, height: 50 )
                         .clipShape(Circle())
