@@ -18,7 +18,15 @@ struct Repository: Decodable {
     let openIssues: Int
     let pushedAt: String 
     
-    static let placeholder = Repository(name: "Your Repo", owner: Owner(avatarUrl: ""), hasIssues: true, forks: 91, watchers: 123, openIssues: 65, pushedAt: "2024-06-29T12:55:05Z")
+    static let placeholder = Repository(
+        name: "Your Repo",
+        owner: Owner(avatarUrl: ""),
+        hasIssues: true,
+        forks: 91,
+        watchers: 123,
+        openIssues: 65,
+        pushedAt: "2024-06-29T12:55:05Z"
+    )
     
     
 }
