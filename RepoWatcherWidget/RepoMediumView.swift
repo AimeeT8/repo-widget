@@ -77,10 +77,10 @@ struct RepoMediumView: View {
   
 }
 
-#Preview(){
-    RepoMediumView(repo: Repository.placeholder)
-        .previewContext(WidgetPreviewContext(family: .systemMedium))
-}
+//#Preview(){
+//    RepoMediumView(repo: entry.topRepo)
+//        .previewContext(WidgetPreviewContext(family: .systemMedium))
+//}
 
 fileprivate struct StatLabel: View {
     
